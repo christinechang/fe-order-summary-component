@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    /* always add this */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* accounts for padding */
+}
+
+body {
+    font-family: "Red Hat Display", serif;
+    font-size: 16px;
+}
+
+.orderSummary {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--pale-blue);
+}
+
+.orderSummary h2 {
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.orderSummary h3 {
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.card {
+    width: 450px;
+    background-color: white;
+    color: var(--desaturated-blue);
+    margin: 50px auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container >* {
+    /* >* says all container children get this style */
+    margin: 13px 0;
+}
+
+.headerImage {
+    width: 100%;
+}
+
+.description {
+    color: var(--desaturated-blue);
+    text-align: center;
+    margin: 5px;
+    line-height: 25px;
+}
+
+.plan-container {
+    background-color: var(--very-pale-blue);
+    padding: 25px;
+    border-radius: 12px;
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.plan-container a {
+    color: var(--bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+}
+.plan-container a:hover {
+    opacity: .8;
+    text-decoration: none;
+}
+.planType {
+    margin-right: 75px;
+    line-height: 20px;
+}
+.planTitle {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--dark-blue);
+}
+
+.planPrice {
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btnCentered {
+    display: flex;
+    justify-content: center;
+}
+
+.btnPay {
+    background-color: var(--bright-blue);
+    color: white;
+    width: 100%;
+    box-shadow: 0 20px 30px -8px rgb(197 189 245);
+    padding: 1rem 0;
+}
+
+.btnPay:hover {
+    opacity: 0.8;
+}
+
+.btnCancel {
+    background-color: white;
+    color: var(--desaturated-blue);
+    margin-top: 22px;
+    padding: 1rem 0;
+}
+
+.btnCancel:hover {
+    color: black;
+}
+
+.btnChange {
+    background-color: transparent;
+    color: var(--dark-blue);
+}
+.signature {
+    margin: 20px 10px;
+    float: right;
+}
