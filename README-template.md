@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Finished Page](https://htmlpreview.github.io/?https://github.com/christinechang/fe-order-summary-component/blob/main/index.html)
+
 
 ## My process
  I just built it starting with html and adding classes and ids as I went along. Then I watched the tutorial (mentioned below) to get some hints about some basic things and compare to my approach. 
@@ -56,6 +56,7 @@ Users should be able to:
 ```css
 .container > *
 ```
+- Github previewer for repos! https://htmlpreview.github.io/?https://github.com/christinechang/fe-order-summary-component/blob/main/index.html AMAZING!
 
 
 ### Continued development
